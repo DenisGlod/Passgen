@@ -1,0 +1,11 @@
+#about > .label {
+    -fx-graphic: url(/image/about.png);
+}
+
+#donation > .label {
+    -fx-graphic: url(/image/donation.png);
+}
+
+#help > .label {
+    -fx-graphic: url(/image/help.png);
+}

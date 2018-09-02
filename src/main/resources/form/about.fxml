@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.denisglod.controller.AboutController">
+   <ImageView fitHeight="80.0" fitWidth="85.0" layoutX="110.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/logo.jpg" />
+   </ImageView>
+   <Label layoutX="117.0" layoutY="14.0" text="PassGen" textAlignment="CENTER">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="137.0" layoutY="169.0" text="2018" />
+   <Label layoutX="88.0" layoutY="143.0" text="Developer by" />
+   <Hyperlink layoutX="160.0" layoutY="140.0" text="Denis Glod" onAction="#onActionLink" />
+</AnchorPane>

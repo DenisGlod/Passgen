@@ -1,1 +1,2 @@
-# passgen
+# PassGen
+JavaFX, Maven
